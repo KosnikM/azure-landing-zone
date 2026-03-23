@@ -30,7 +30,7 @@ variable "firewall_private_ip" {
   type = string
 }
 
-variable "private_dns_zone" {
+variable "private_dns_zones" {
   type = list(string)
 }
 
