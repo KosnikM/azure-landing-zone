@@ -96,9 +96,8 @@ module "database" {
   subnet_id = module.networking.subnet_ids["spoke-dev-private-endpoints"]
   private_dns_zone = "privatelink.database.windows.net"
 }
-
+*/
 module "governance" {
   source            = "../../modules/governance"
   resource_group_id = azurerm_resource_group.this.id
 }
-*/
