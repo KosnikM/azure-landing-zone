@@ -85,7 +85,7 @@ module "monitoring" {
     alert_email = var.alert_email
     vm_id = module.compute.vm_id
 }
-
+/*
 module "database" {
   source = "../../modules/database"
   environment = var.environment
@@ -101,3 +101,4 @@ module "governance" {
   source            = "../../modules/governance"
   resource_group_id = azurerm_resource_group.this.id
 }
+*/
